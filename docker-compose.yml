@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   malware-detection:
-    image: cyberdef25-detector
+    image: hamzashaukat078/cyberdef25-detector:latest
     container_name: cyberdef25-detector
     build: .
     volumes:
@@ -10,3 +10,4 @@ services:
       - ./output:/output
     environment:
       - TZ=Asia/Karachi
+
