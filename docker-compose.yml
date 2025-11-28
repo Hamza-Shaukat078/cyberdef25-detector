@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  malware-detection:
+    image: cyberdef25-detector
+    container_name: cyberdef25-detector
+    build: .
+    volumes:
+      - ./network_logs:/input/logs
+      - ./output:/output
+    environment:
+      - TZ=Asia/Karachi
