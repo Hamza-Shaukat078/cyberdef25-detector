@@ -1,6 +1,7 @@
 # CyberDef25 Detector — Automated Threat Detection Tool
 <img width="975" height="468" alt="image" src="https://github.com/user-attachments/assets/d9c69526-e2a7-4047-94e7-4222420c38d2" />
-
+<img width="975" height="176" alt="image" src="https://github.com/user-attachments/assets/dca3c1a1-31c2-4fd7-a35c-723a62ffab99" />
+<img width="975" height="363" alt="image" src="https://github.com/user-attachments/assets/adfe083b-78cd-4423-948b-d8330c6b3116" />
 
 A Python-based automated threat detection tool developed for the **CyberDef 2025** challenge. Analyzes system logs and network data to identify Indicators of Compromise (IOCs) and Indicators of Attack (IOAs), producing structured reports for incident response.
 
